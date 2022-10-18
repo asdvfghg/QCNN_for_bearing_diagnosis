@@ -65,11 +65,11 @@ QCNN_for_bearing_diagnosis
 └─  data # bearing fault datasets 
      │   
      └─ 0HP # example dataset
-	 	│ xxx.mat
+	 │ xxx.mat
 └─  utils
      │   data_split.py # spliting dataset to train set and test set, then add noise to the raw signal. 
      │   DatasetLoader.py # dataloder class for pytorch
-	 │   preprocess.py # preprocessing signal
+     │   preprocess.py # preprocessing signal
      │   train_function.py # Train function for quadratic network
 └─  Model
      │   ConvQuadraticOperation.py # the quadratic convolutional neuron function 
