@@ -111,6 +111,7 @@ Here we give the main results of our paper. We use the false positive rate (FPR)
 
 ![enter description here](https://raw.githubusercontent.com/asdvfghg/image/master/QCNN/results.png)
 
+
 All the baseline methods we utilize their official implement as follows:
 RNN-WDCNN [4]: https://github.com/al3xsh/rolling-element-bearing-fault-detection
 AResNet [5]: https://github.com/dongfangxiaotian/CWRU-AttentionMechanism-ResNet
