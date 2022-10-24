@@ -65,11 +65,11 @@ QCNN_for_bearing_diagnosis
 └─  data # bearing fault datasets 
      │   
      └─ 0HP # example dataset
-	 	│ xxx.mat
+	 │ xxx.mat
 └─  utils
      │   data_split.py # spliting dataset to train set and test set, then add noise to the raw signal. 
      │   DatasetLoader.py # dataloder class for pytorch
-	 │   preprocess.py # preprocessing signal
+     │   preprocess.py # preprocessing signal
      │   train_function.py # Train function for quadratic network
 └─  Model
      │   ConvQuadraticOperation.py # the quadratic convolutional neuron function 
@@ -113,10 +113,15 @@ Here we give the main results of our paper. We use the false positive rate (FPR)
 
 
 All the baseline methods we utilize their official implement as follows:
+
 RNN-WDCNN [4]: https://github.com/al3xsh/rolling-element-bearing-fault-detection
+
 AResNet [5]: https://github.com/dongfangxiaotian/CWRU-AttentionMechanism-ResNet
+
 MA1DCNN [6]: https://github.com/erphm/MA1DCNN
+
 DCA-BiGRU [7]:https://github.com/liguge/Fault-diagnosis-for-small-samples-based-on-attention-mechanism
+
 WDCNN [2]: https://github.com/AaronCosmos/wdcnn_bearning_fault_diagnosis
 
 ### Interpretable Qttention Maps
