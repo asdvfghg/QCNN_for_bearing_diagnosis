@@ -219,7 +219,14 @@ if __name__ == '__main__':
         output6 = F.interpolate(output6.unsqueeze(0), length)
         output6 = output6.detach().numpy().squeeze()
 
-        map = [output[0, :], output2[0, :], output3[0, :], output4[0, :], output5[0, :], output6[0, :]]
+        output = np.abs(np.gradient(output[0, :]))
+        output2 = np.abs(np.gradient(output2[0, :]))
+        output3 = np.abs(np.gradient(output3[0, :]))
+        output4 = np.abs(np.gradient(output4[0, :]))
+        output5 = np.abs(np.gradient(output5[0, :]))
+        output6 = np.abs(np.gradient(output6[0, :]))
+
+        map = [output, output2, output3, output4, output5, output6]
         map = np.array(map)
         outputs.append(map)
         print('Process X: %d' % (i))
