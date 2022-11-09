@@ -118,7 +118,7 @@ def prepro(d_path, length=2048, number=1000, normal=True, enc=True, enc_step=28,
 
 
 if __name__ == "__main__":
-    path = '../data/0.1HP-1800'
+    path = '../data/0HP'
     train_X, train_Y, valid_X, valid_Y = prepro(d_path=path,
                                 length=2048,
                                 number=750,
