@@ -107,7 +107,7 @@ After that, you can run our code for training.
 
 ## Main Results
 ### Classification Performance
-Here we give the main results of our paper. We use the false positive rate (FPR), fault detection rate (FDR), presicion (PRE) and F1 score to validate the performance of the proposed method. All resutls are run 5times to calculate the average. The proposed method outperforms other compared baseline methods.
+Here we give the main results of our paper. We use the false positive rate (FPR), fault detection rate (FDR), presicion (PRE) and F1 score to validate the performance of the proposed method. All resutls are run 5 times to calculate the average. The proposed method outperforms other compared baseline methods.
 
 ![enter description here](https://raw.githubusercontent.com/asdvfghg/image/master/QCNN/results.png)
 
@@ -124,9 +124,14 @@ DCA-BiGRU [7]:https://github.com/liguge/Fault-diagnosis-for-small-samples-based-
 
 WDCNN [2]: https://github.com/AaronCosmos/wdcnn_bearning_fault_diagnosis
 
+### Hyperparameters
+Initial hyperparameters of all baseline methods on test dataset. lr denotes the learning rate. For the QCNN, we use so called ReLinear algorithm for training [8]. A normal learning rate $\gamma_r$ is cast for $(\boldsymbol{w}^r, b^r)$, and a relatively small learning rate $\gamma_{g,b}$ for $(\boldsymbol{w}^g, b^g,  \boldsymbol{w}^b,c)$. We use a scale facor $\alpha$ to control the ratio of $\gamma_r$ and $\gamma_{g,b}$, that is, $\gamma_r = \alpha \cdot \gamma_{g,b}$.
+
+![enter description here](https://raw.githubusercontent.com/asdvfghg/image/master/QCNN/hyper.png)
 ### Interpretable Qttention Maps
 The qttention maps derived from the QCNN inference process. Note that the QCNN pays attention to significant fault-related vibration signals.
 ![enter description here](https://raw.githubusercontent.com/asdvfghg/image/master/QCNN/qttentionmap.png)
+
 ## Contact
 If you have any questions about our work, please contact the following email address:
 
@@ -147,3 +152,5 @@ Enjoy your coding!
 [6] Wang, H., Liu, Z., Peng, D., & Qin, Y. (2019). Understanding and learning discriminant features based on multiattention 1DCNN for wheelset bearing fault diagnosis. IEEE Transactions on Industrial Informatics, 16(9), 5735-5745.
 
 [7] Zhang, X., He, C., Lu, Y., Chen, B., Zhu, L., & Zhang, L. (2022). Fault diagnosis for small samples based on attention mechanism. Measurement, 187, 110242.
+
+[8] Feng-Lei Fan, Mengzhou Li, Fei Wang, Rongjie Lai, and Ge Wang. Expressivity and trainability of quadratic networks. arXiv preprint, 2021.
