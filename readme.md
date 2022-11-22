@@ -124,8 +124,11 @@ DCA-BiGRU [7]:https://github.com/liguge/Fault-diagnosis-for-small-samples-based-
 
 WDCNN [2]: https://github.com/AaronCosmos/wdcnn_bearning_fault_diagnosis
 
-### Hyperparameters
-Initial hyperparameters of all baseline methods on test dataset. lr denotes the learning rate. For the QCNN, we use so called ReLinear algorithm for training [8]. A normal learning rate $\gamma_r$ is cast for $(\boldsymbol{w}^r, b^r)$, and a relatively small learning rate $\gamma_{g,b}$ for $(\boldsymbol{w}^g, b^g,  \boldsymbol{w}^b,c)$. We use a scale facor $\alpha$ to control the ratio of $\gamma_r$ and $\gamma_{g,b}$, that is, $\gamma_r = \alpha \cdot \gamma_{g,b}$.
+### Initial Settings and Hyperparameters
+First, we summarise the techniques and hyperparameters used in our experiments. Since the official codes of baseline methods use different training strategies, we keep their strategies and only fine-tune their hyperparameters.
+![enter description here](https://raw.githubusercontent.com/asdvfghg/image/master/QCNN/setings.png)
+
+Second, initial hyperparameters of all baseline methods on test dataset. lr denotes the learning rate. For the QCNN, we use so called ReLinear algorithm for training [8]. A normal learning rate $\gamma_r$ is cast for $(\boldsymbol{w}^r, b^r)$, and a relatively small learning rate $\gamma_{g,b}$ for $(\boldsymbol{w}^g, b^g,  \boldsymbol{w}^b,c)$. We use a scale facor $\alpha$ to control the ratio of $\gamma_r$ and $\gamma_{g,b}$, that is, $\gamma_r = \alpha \cdot \gamma_{g,b}$.
 
 ![enter description here](https://raw.githubusercontent.com/asdvfghg/image/master/QCNN/hyper.png)
 ### Interpretable Qttention Maps
