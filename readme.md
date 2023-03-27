@@ -1,5 +1,5 @@
 # Attention-embedded Quadratic Network (Qttention) for Effective and Interpretable Bearing Fault Diagnosis
-This is the repository of our submission for IEEE Transactions on Instrumentation and Measurement   "Attention-embedded Quadratic Network (Qttention) for Effective and Interpretable Bearing Fault Diagnosis". Here is the preprint vision [https://arxiv.org/pdf/2206.00390.pdf](https://arxiv.org/pdf/2206.00390.pdf).
+This is the offical repository of the paper "Attention-embedded Quadratic Network (Qttention) for Effective and Interpretable Bearing Fault Diagnosis". Here is the EA vision in IEEE Transactions on Instrumentation and Measurement [https://ieeexplore.ieee.org/abstract/document/10076833](https://ieeexplore.ieee.org/abstract/document/10076833).
 In this work,
 
 1. We propose a simple and effective model that is made of quadratic neurons for bearing fault diagnosis. The quadratic neurons directly augment the model to outperform other state-of-the-arts in noisy data settings. Different from previous structural modifications, our innovation is at the neuronal level, applying different neurons to bearing fault diagnosis and upgrading CNNs-based bearing fault diagnosis models. 
@@ -12,12 +12,15 @@ All experiments are conducted with Windows 10 on an Intel i9 10900k CPU at 3.70 
 ## Citing
 If you find this repo useful for your research, please consider citing it:
 ```
-@article{liao2022attention,
-  title={Attention-embedded Quadratic Network (Qttention) for Effective and Interpretable Bearing Fault Diagnosis},
+@ARTICLE{10076833,
   author={Liao, Jing-Xiao and Dong, Hang-Cheng and Sun, Zhi-Qi and Sun, Jinwei and Zhang, Shiping and Fan, Feng-Lei},
-  journal={arXiv preprint arXiv:2206.00390},
-  year={2022}
-}
+  journal={IEEE Transactions on Instrumentation and Measurement}, 
+  title={Attention-embedded Quadratic Network (Qttention) for Effective and Interpretable Bearing Fault Diagnosis}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TIM.2023.3259031}}
 ```
 
 
