@@ -1,5 +1,6 @@
 # Attention-embedded Quadratic Network (Qttention) for Effective and Interpretable Bearing Fault Diagnosis
 This is the offical repository of the paper "Attention-embedded Quadratic Network (Qttention) for Effective and Interpretable Bearing Fault Diagnosis". Here is the EA vision in IEEE Transactions on Instrumentation and Measurement [https://ieeexplore.ieee.org/abstract/document/10076833](https://ieeexplore.ieee.org/abstract/document/10076833).
+
 In this work,
 
 1. We propose a simple and effective model that is made of quadratic neurons for bearing fault diagnosis. The quadratic neurons directly augment the model to outperform other state-of-the-arts in noisy data settings. Different from previous structural modifications, our innovation is at the neuronal level, applying different neurons to bearing fault diagnosis and upgrading CNNs-based bearing fault diagnosis models. 
