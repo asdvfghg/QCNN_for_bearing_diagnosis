@@ -1,5 +1,5 @@
 # Attention-embedded Quadratic Network (Qttention) for Effective and Interpretable Bearing Fault Diagnosis
-This is the offical repository of the paper "Attention-embedded Quadratic Network (Qttention) for Effective and Interpretable Bearing Fault Diagnosis". Here is the EA vision in IEEE Transactions on Instrumentation and Measurement [https://ieeexplore.ieee.org/abstract/document/10076833](https://ieeexplore.ieee.org/abstract/document/10076833).
+This is the offical repository of the paper "Attention-embedded Quadratic Network (Qttention) for Effective and Interpretable Bearing Fault Diagnosis" in IEEE Transactions on Instrumentation and Measurement [https://ieeexplore.ieee.org/abstract/document/10076833](https://ieeexplore.ieee.org/abstract/document/10076833).
 
 In this work,
 
@@ -16,11 +16,11 @@ If you find this repo useful for your research, please consider citing it:
 @ARTICLE{10076833,
   author={Liao, Jing-Xiao and Dong, Hang-Cheng and Sun, Zhi-Qi and Sun, Jinwei and Zhang, Shiping and Fan, Feng-Lei},
   journal={IEEE Transactions on Instrumentation and Measurement}, 
-  title={Attention-embedded Quadratic Network (Qttention) for Effective and Interpretable Bearing Fault Diagnosis}, 
+  title={Attention-Embedded Quadratic Network (Qttention) for Effective and Interpretable Bearing Fault Diagnosis}, 
   year={2023},
-  volume={},
+  volume={72},
   number={},
-  pages={1-1},
+  pages={1-13},
   doi={10.1109/TIM.2023.3259031}}
 ```
 
