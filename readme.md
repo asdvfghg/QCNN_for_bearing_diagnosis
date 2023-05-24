@@ -111,9 +111,9 @@ After that, you can run our code for training.
 
 ## Main Results
 ### Classification Performance
-Here we give the main results of our paper. We use the false positive rate (FPR), fault detection rate (FDR), presicion (PRE) and F1 score to validate the performance of the proposed method. All resutls are run 5 times to calculate the average. The proposed method outperforms other compared baseline methods.
+Here we give the main results of our paper. We use the false positive rate (FPR), fault detection rate (FDR), presicion (PRE) and F1 score to validate the performance of the proposed method. All results are run 5 times to calculate the average. The proposed method outperforms other compared baseline methods.
 
-![enter description here](https://raw.githubusercontent.com/asdvfghg/image/master/QCNN/results.png)
+![enter description here](https://raw.githubusercontent.com/asdvfghg/image/master/QCNN/1684933742120.png)
 
 
 All the baseline methods we utilize their official implement as follows:
