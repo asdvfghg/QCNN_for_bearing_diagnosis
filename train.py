@@ -117,8 +117,8 @@ def train(config, dataloader):
                 if step % 20 == 0 and phase == 'train':
                     print('Epoch:%d, Step [%d/%d], Loss: %.4f'
                           % (
-                          e + 1, step + 1, len(dataloader[phase].dataset), loss_total / len(dataloader[phase].dataset)))
-            loss_total = loss_total / len(dataloader[phase].dataset)
+                          e + 1, step + 1, len(dataloader[phase].dataset), loss_total))
+            # loss_total = loss_total / len(dataloader[phase].dataset)
 
             acc = correct / total
             if phase == 'train':
